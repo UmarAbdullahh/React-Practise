@@ -36,3 +36,56 @@
     transform: rotate(360deg);
   }
 }
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  background-color: #efefef;
+}
+.box{
+  border: none;
+  border-radius: 10%;
+  text-align: center;
+  width: 4rem;
+  height: 4rem;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 3rem;
+  margin: 0.5rem;
+  box-shadow: 0px 0px 8px #888;
+}
+.x{
+  color: blue;
+}
+.o {
+  color: green;
+}
+.board{
+  display: grid;
+  grid-template-columns: repeat(3,6rem); 
+  place-items: center;
+  justify-content: center;
+}
+.score{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 20rem;
+  font-size: 1.5rem;
+  background-color: white;
+  margin: 3rem auto;
+  box-shadow: 0px 0px 8px #888;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+.btn{
+  border: none;
+  border-radius: 0.5rem;
+  background-color: rgb(0, 0, 0);
+  height: 2rem;
+  width: 4rem;
+  color: white;
+  
+}
