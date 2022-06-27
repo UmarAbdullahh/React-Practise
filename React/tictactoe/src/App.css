@@ -67,7 +67,7 @@ body{
   place-items: center;
   justify-content: center;
 }
-.score{
+.scoreCard{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -87,5 +87,24 @@ body{
   height: 2rem;
   width: 4rem;
   color: white;
+  margin-top: 15px;
   
+}
+.score{
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+}
+.x-score{
+  color: blue;
+  border-bottom: 5px solid blue;
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+.o-score{
+  color: green;
+  border-bottom: 5px solid green;
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+.inactive{
+  border-bottom: 5px solid transparent;
 }
